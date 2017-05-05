@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AACustomFontDemo</string>
+    <string name="msg">Vision without power does bring moral elevation but cannot give a lasting culture.</string>
+    <string name="stay_awesome">Stay Awesome!</string>
+    <string name="here_you_are">Here you are!</string>
+    <string name="type_something">Type something</string>
+    <string name="radiobutton">RadioButton</string>
+    <string name="checkbox">CheckBox</string>
+</resources>
