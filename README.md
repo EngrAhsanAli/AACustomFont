@@ -22,17 +22,20 @@
 
 <div id='section-id-4'/>
 
-#AACustomFont
+AACustomFont
+============
 
 <div id='section-id-10'/>
 
-##Description
+Description
+===========
 
 `AACustomFont` is a lightweight custom font binder in XML directly in `TextView`, `Button`, `EditText`, `RadioButton`, `CheckBox` tags. The library is aimed to avoid custom views for custom fonts in XML and to minimize the JAVA code for setting the TypeFaces for each view.
 
 <div id='section-id-16'/>
 
-##Demonstration
+Demonstration
+=============
 
 You can use `AACustomFont` in any view that's extended from `TextView`.
 For example, 
@@ -48,7 +51,8 @@ For example,
 
 <div id='section-id-26'/>
 
-##Requirements
+Requirements
+============
 
 - Android Studio
 - Android 2.3+
@@ -64,8 +68,8 @@ For example,
 
 <div id='section-id-37'/>
 
-##Maven
-
+Maven
+=========
 **Step 1.** Add the JitPack repository to your build file
 
 ```xml
@@ -88,7 +92,8 @@ For example,
 
 <div id='section-id-63'/>
 
-##Gradle
+Gradle
+======
 
 **Step 1.** Add the JitPack repository to your build file
 
@@ -109,7 +114,8 @@ dependencies {
 ```
 <div id='section-id-82'/>
 
-##Manual Installation
+Manual Installation
+===================
 
 If you prefer not to use either of the above mentioned dependency managers, you can integrate `AACustomFont` into your project manually by adding the files contained in the java folder to your project.
 
@@ -121,7 +127,8 @@ If you prefer not to use either of the above mentioned dependency managers, you 
 
 <div id='section-id-90'/>
 
-##Enable data binding
+Enable data binding
+==================
 
 You need to enable data binding in order to bind custom fonts with your views. Add the following in your *build.gradle*.
  
@@ -135,13 +142,15 @@ android {
 
 <div id='section-id-104'/>
 
-##Add font files
+Add font files
+==============
 
 You can add the font files in *assets/fonts* directory. `AACustomFont` will automatically grab your fonts from that directory, automatically. The font files may have *.ttf* or *.otf* extensions.
 
 <div id='section-id-112'/>
 
-##Start embedding the fonts!
+Start embedding the fonts!
+==========================
 
 You need to change your layout parent tag to `layout` tag and put the rest in that tag.
 
@@ -168,7 +177,8 @@ Now set your fonts like:
 
 <div id='section-id-132'/>
 
-##Bind the views!
+Bind the views!
+===============
 
 You need to bind the views in java:
 
@@ -184,7 +194,8 @@ AACustomFont.getInstance(this).setAlias("myfont", "Font-File.otf");
 
 <div id='section-id-156'/>
 
-#Contributions & License
+Contributions & License
+=======================
 
 `AACustomFont` is available under the MIT license. See the [LICENSE](./LICENSE) file for more info.
 
