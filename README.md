@@ -1,5 +1,4 @@
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-AACustomFont-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5707)
-![License MIT](https://img.shields.io/github/license/mashape/apistatus.svg)
 [![](https://jitpack.io/v/EngrAhsanAli/AACustomFont.svg)](https://jitpack.io/#EngrAhsanAli/AACustomFont)
 
 
