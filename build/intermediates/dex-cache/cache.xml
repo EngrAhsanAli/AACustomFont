@@ -3,57 +3,120 @@
 
     <item
         is-multidex="false"
-        jar="/Users/muhammad.ahsan/Desktop/AACustomFontDemo/aacustomfont/build/intermediates/bundles/default/classes.jar"
+        jar="C:\Users\ahsan\.android\build-cache\b4120d1e54365e317295ba5688e3cf5cf84007d8\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="a324faaaebd73eb108ecd23485d827b9bd467ca2">
-        <dex dex="/Users/muhammad.ahsan/Desktop/AACustomFontDemo/app/build/intermediates/pre-dexed/debug/classes_8b7ded6a3b3915f16400a68efe120d1e7a7a6304.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/muhammad.ahsan/Desktop/AACustomFontDemo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7d2a1247d1b9ed6045ff85cca946e463975bf107">
-        <dex dex="/Users/muhammad.ahsan/Desktop/AACustomFontDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_00e5328aa40ccc43c6196cd9a8d16dc3f74aa113/classes.dex" />
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\ahsan\Desktop\AACustomFont\app\build\intermediates\pre-dexed\debug\classes_28096a2e3c2e1239cd2280f20d94e75238910a6a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/muhammad.ahsan/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/2.3.1/2626e02aa9592edd5386d87408e05727303d9ded/baseLibrary-2.3.1.jar"
+        jar="C:\Users\ahsan\.android\build-cache\e1e615c6ff2665b951a7e29ff207512a228fb447\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\ahsan\Desktop\AACustomFont\app\build\intermediates\pre-dexed\debug\classes_50ea88a6732d7169cd5e02744add1ec3fc99f58d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ahsan\.android\build-cache\be7b137c1ed81974c6e97818ce428e2768b4daba\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\ahsan\Desktop\AACustomFont\app\build\intermediates\pre-dexed\debug\classes_f135c1c869ab5e560c2d0f7bdbf74fadb1464583.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ahsan\.android\build-cache\2357c023fbeab52f1b575516313a02cae7c07711\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\ahsan\Desktop\AACustomFont\app\build\intermediates\pre-dexed\debug\classes_ff7cf6b7900f477f5f6f01b867fc89d71b371d84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ahsan\.android\build-cache\efa389d6185aa6ba053f6d8fef1df4914eb41a7c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\ahsan\Desktop\AACustomFont\app\build\intermediates\pre-dexed\debug\classes_607af0d51884d134e64f256259b7aee6656883c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\Android Studio\gradle\m2repository\com\android\databinding\baseLibrary\2.3.1\baseLibrary-2.3.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="2626e02aa9592edd5386d87408e05727303d9ded">
-        <dex dex="/Users/muhammad.ahsan/Desktop/AACustomFontDemo/app/build/intermediates/pre-dexed/debug/baseLibrary-2.3.1_7b010b68077ca2a58589f4a1c0f6aa2e768aa6e5.jar" />
+        <dex dex="C:\Users\ahsan\Desktop\AACustomFont\app\build\intermediates\pre-dexed\debug\baseLibrary-2.3.1_5fd9657e87967035f03553e0a43b1b7c82de8190.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/muhammad.ahsan/.android/build-cache/f971f33b4d4d9b3e2ff46adc31dd1375ef2af96a/output/jars/classes.jar"
+        jar="C:\Users\ahsan\.android\build-cache\a5d4daffbd15f36f6ac368463952d72fb2af6c7e\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="7f2f348b830f292429db987f74ba3e67c6752322">
-        <dex dex="/Users/muhammad.ahsan/Desktop/AACustomFontDemo/app/build/intermediates/pre-dexed/debug/classes_591d529d454d0a3f5076cdcc59e98ab459de56a0.jar" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\ahsan\Desktop\AACustomFont\app\build\intermediates\pre-dexed\debug\classes_9bc180c090368c49f22a63972cfbca4e1c117398.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/muhammad.ahsan/.android/build-cache/baf4f73afd1326e4e23d8af28ebbc7e12d06a551/output/jars/classes.jar"
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="68956f5ba1517b7a3d513ba540548e257741cbae">
-        <dex dex="/Users/muhammad.ahsan/Desktop/AACustomFontDemo/app/build/intermediates/pre-dexed/debug/classes_5299c9869096abdaa5dcb15943ebb4f6363b6dc8.jar" />
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\ahsan\Desktop\AACustomFont\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_4587515df70b11ae990e217c69c9b3a61733a049.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/muhammad.ahsan/Desktop/AACustomFontDemo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\ahsan\Desktop\AACustomFont\aacustomfont\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="/Users/muhammad.ahsan/Desktop/AACustomFontDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a88b26a381f413e6a7844ef759ac08835d134ae8/classes.dex" />
+        sha1="79c84800f0815ae2b2ea098ba74e179eae85f880">
+        <dex dex="C:\Users\ahsan\Desktop\AACustomFont\app\build\intermediates\pre-dexed\debug\classes_c55d3c173d78ac5b2f6595dcbcefe55a1e220894.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ahsan\.android\build-cache\5dcbbebadf686cb2036aa0fd179eb37c610817a3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\ahsan\Desktop\AACustomFont\app\build\intermediates\pre-dexed\debug\classes_8285df9af91f984b8f121c1f3a4eaa373bd1d181.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ahsan\.android\build-cache\2b6a11b8240dc4c73a76f29860a418dc91dc8484\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\ahsan\Desktop\AACustomFont\app\build\intermediates\pre-dexed\debug\classes_e6f96b47040a700baa01fa66c3082dd981fc2fdb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ahsan\.android\build-cache\1278d8ec47882c5392693b68956b9c7c4c1b3045\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\ahsan\Desktop\AACustomFont\app\build\intermediates\pre-dexed\debug\classes_fa5f8d7e3e2457cd48f64f3128eebdae9aa5aabc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ahsan\Desktop\sadasd\AACustomFont\aacustomfont\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="79c84800f0815ae2b2ea098ba74e179eae85f880">
+        <dex dex="C:\Users\ahsan\Desktop\sadasd\AACustomFont\app\build\intermediates\pre-dexed\debug\classes_363ac93bf37b027a05d3bc344895c17cab28ccbb.jar" />
     </item>
 
 </items>

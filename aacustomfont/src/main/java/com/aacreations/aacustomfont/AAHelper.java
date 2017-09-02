@@ -15,15 +15,12 @@
  */
 package com.aacreations.aacustomfont;
 
-import android.content.Context;
 import android.databinding.BindingAdapter;
-import android.graphics.Typeface;
 import android.view.View;
-import android.widget.TextView;
 
 /**
  * A helper class for font binding on current view's context.
- *
+ * <p>
  * Created by muhammad.ahsan on 04/05/2017 in AACustomFont.
  * See more at https://github.com/EngrAhsanAli
  * Copyright (C) 2017 AA-Creations.
@@ -37,16 +34,13 @@ public class AAHelper {
      * The font file should be placed in assets folder in the directory of fonts.
      * Any view that has parent class of TextView can easily use this method.
      *
-     * @param view Any TextView expected for set the typeface
+     * @param view     Any TextView expected for setting the typeface
      * @param fontName Font file name
      */
     @BindingAdapter({"bind:font"})
     public static void setFont(View view, String fontName) {
-        if (view instanceof TextView) {
-            Context context = view.getContext();
-            Typeface font = AACustomFont.getInstance(context).get(fontName);
-            TextView textView = (TextView) view;
-            textView.setTypeface(font);
-        }
+        AACustomFont.setCustomFont(view, fontName);
     }
+
+
 }

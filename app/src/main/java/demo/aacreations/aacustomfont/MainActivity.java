@@ -3,6 +3,7 @@ package demo.aacreations.aacustomfont;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+
 import com.aacreations.aacustomfont.AACustomFont;
 
 /**
@@ -17,7 +18,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        AACustomFont.getInstance(this).setAlias("myfont", "Budidaya-Regular.otf");
+        AACustomFont.getInstance(this)
+                .setAlias("myfont", "Budidaya-Regular.otf")
+                .setDefaultFontName("myfont");
         DataBindingUtil.setContentView(this, R.layout.activity_main);
 
     }
