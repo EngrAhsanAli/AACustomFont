@@ -86,7 +86,7 @@ Maven
 <dependency>
       <groupId>com.github.EngrAhsanAli</groupId>
       <artifactId>AACustomFont</artifactId>
-      <version>1.0.0</version>
+      <version>1.1</version>
 </dependency>
 ```
 
@@ -109,7 +109,7 @@ allprojects {
 
 ```
 dependencies {
-  compile 'com.github.EngrAhsanAli:AACustomFont:1.0.0'
+  compile 'com.github.EngrAhsanAli:AACustomFont:1.1'
 }
 ```
 <div id='section-id-82'/>
@@ -173,7 +173,7 @@ Now set your fonts like:
     <!-- other properties -->
     app:font="@{`budidaya-italic`}" />
 ```
-> Note that the font name will always be in lowercase.
+> Note that the font name will always be in lowercase. If no font specified, it will get the default font in `app:font="@{``}`.
 
 <div id='section-id-132'/>
 
@@ -184,12 +184,31 @@ You need to bind the views in java:
 
 ```java
 DataBindingUtil.setContentView(this, R.layout.your_layout);
+
+// Using LayoutInflator
+DataBindingUtil.inflate(inflater, R.layout.your_layout, this, true);
 ```
 
 You can set *alias* to your font name using the following method
 
 ``` 
-AACustomFont.getInstance(this).setAlias("myfont", "Font-File.otf");
+AACustomFont.getInstance(this)
+                .setAlias("myfont", "Font-File.otf")
+                .setDefaultFontName("myfont");
+```
+
+You can override typefaces with your font name using the following method
+
+``` 
+// For all typefaces in given activity context with default font
+AACustomFont.getInstance(this).overrideFonts(this);
+
+// For all typefaces in given activity context with specified font
+AACustomFont.getInstance(this).overrideFonts(this, "my_font");
+
+// For all typefaces in given viewgroup with specified font
+AACustomFont.overrideFonts(button, "myfont");
+
 ```
 
 <div id='section-id-156'/>
